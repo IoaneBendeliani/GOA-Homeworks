@@ -1,0 +1,6 @@
+drop-down menu - ჩამოსაშლელი მენიუ
+select - არჩევა
+option - ვარიანტი
+choice - არჩევანი
+pre-selected - წინასწარ არჩეული
+placeholder - ადგილის დამკავებელი

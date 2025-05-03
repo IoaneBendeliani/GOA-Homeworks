@@ -1,0 +1,3 @@
+list - სია
+index - პოზიცია
+square brackets - კვადრატული ბრჩხილები
