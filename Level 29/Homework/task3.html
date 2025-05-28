@@ -1,0 +1,72 @@
+<!--შექემნით ვებგვერდი თქვენს შესახებ, რომელზეც მოცემული იქნება ინფორმაცია და სურათები. გამოიყენეთ Internal CSS გასტილვისთვის და ელემენტები გასტილეთ შთამომავალი selector-ისა (გამოიყენეთ მინიმუმ 3-ჯერ) და id-ის მეშვეობით -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>იოანე ბენდელიანი</title>
+    <style>
+        /* შთამომავალი სელექტორები (3 მაგალითი) */
+        section h2 {
+            color: darkblue;
+        }
+
+        div p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        article ul {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /* ID სტილიზაცია */
+        #name {
+            color: teal;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #photo {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 250px;
+        }
+
+        #about {
+            background-color: #eaf7ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="name">იოანე ბენდელიანი</h1>
+    <img id="photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Judo_techniques.jpg/320px-Judo_techniques.jpg" alt="იოანე ძიუდოზე">
+
+    <div id="about">
+        <section>
+            <h2>ჩემ შესახებ</h2>
+            <p>მე ვარ იოანე ბენდელიანი. ვარ 14 წლის, ვსწავლობ გოას აკადემიაში და დავდივარ 85-ე საჯარო სკოლაში. ახლა მეცხრე კლასში ვარ.</p>
+        </section>
+
+        <section>
+            <h2>ჰობი</h2>
+            <article>
+                <ul>
+                    <li>ძიუდო</li>
+                    <li>ველოსიპედით სეირნობა</li>
+                    <li>პროგრამირება</li>
+                    <li>ხატვა</li>
+                </ul>
+            </article>
+        </section>
+    </div>
+
+</body>
+</html>

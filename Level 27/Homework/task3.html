@@ -1,0 +1,45 @@
+<!-- interal css-ში 1 წესის საშვალებით გასტილეთ 2 h1 და h2 ვებგვერდზე, ასევე მეორე წესის საშვალებით გასტილეთ div-ში არსებული ყველა პარაგრაფი, მინმიუმ მიანიჭეთ color და background-color შეეცადეთ გამოიყენოთ ყველა კუთვნილება. კომენტარებით ახსენით თუ რა არის CSS-ის წესი-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS მაგალითი</title>
+
+    <style>
+        /* 
+         CSS-ის წესი = selector + დეკლარაციები 
+         selector არის HTML ელემენტი (მაგ: h1), 
+         დეკლარაციები კი კუთვნილება:მნიშვნელობა წყვილებია 
+        */
+
+        h1, h2 {
+            color: navy; 
+            background-color: lightgray; 
+            text-align: center; 
+            font-family: Arial, sans-serif;
+            padding: 10px; 
+        }
+
+        div p {
+            color: white; 
+            background-color: green; 
+            font-size: 16px;
+            line-height: 1.5; 
+            padding: 8px; 
+            border-radius: 5px; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>სათაური H1</h1>
+    <h2>სათაური H2</h2>
+
+    <div>
+        <p>ეს არის პირველი აბზაცი div ელემენტში.</p>
+        <p>ეს არის მეორე აბზაცი div ელემენტში.</p>
+    </div>
+
+</body>
+</html>
