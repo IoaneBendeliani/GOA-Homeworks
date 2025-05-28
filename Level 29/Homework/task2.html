@@ -1,0 +1,34 @@
+<!--შექმენით ვებგვერდი: "ჩემი საყვარელი ფრაზა" რომელშიც სათაურად გამოიტანთ თქვენს საყვარელ ციტატას. ვებგვერდი გასტილეთ Internal CSS-ით და ის ელემენტები რომლებსაც ერთი და იგივე სტილი უნდა ჰქონდეთ გასტილეთ ერთი წესით (selector-ში გამოყავით ერთმანეთისგან მძიმეებით)-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <title>ჩემი საყვარელი ფრაზა</title>
+  <style>
+    /* ერთი წესი ერთნაირი სტილით რამდენიმე ელემენტისთვის */
+    h1, p, blockquote {
+      font-family: "Arial", sans-serif;
+      color: darkslateblue;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    blockquote {
+      font-style: italic;
+      border-left: 4px solid darkslateblue;
+      padding-left: 15px;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ჩემი საყვარელი ფრაზა</h1>
+  <blockquote>
+    "The only limit to our realization of tomorrow is our doubts of today."
+  </blockquote>
+  <p>— Franklin D. Roosevelt</p>
+
+</body>
+</html>

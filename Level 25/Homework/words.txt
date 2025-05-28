@@ -1,0 +1,8 @@
+ისწავლეთ ახალი სიტყვები:
+
+onclick - დაჭერისას
+alert - გამაფრთხილებელი სიგნალი
+CSS - Cascading Style Sheets
+selector - ამარჩეველი
+layout - განლაგება
+style - სტილი

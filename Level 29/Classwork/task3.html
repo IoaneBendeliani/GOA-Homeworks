@@ -1,0 +1,60 @@
+<!--შექმენით 3 div ვებგვერდზე, თითოეულში უნდა იყოს: სათაური, პარაგაფი, ღილაკი და სურათი. თქვენთის სასურველი 3 ელემენტი გასტილეთ დამოუკიდებლად (ისე რომ კონკრეტულად ეს ელემენტი გაისტილოს) გამოიყენეთ id და CSS დაწერეთ Internal ტექნიკით-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #h{
+            color:green;
+            background-color: red;
+        }
+
+        #p{
+            color: aqua;
+            text-align: end;
+        }
+
+        #b{
+            background-color: blue;
+            color: azure;
+        }
+
+        #img{
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2 id="h">div1</h2>
+        <p>div1</p>
+        <button>click_div1</button>
+        <img>
+    </div>
+
+    <div>
+        <h2>div2</h2>
+        <p id="p">div2</p>
+        <button>click_div2</button>
+        <img>
+    </div>
+
+    <div>
+        <h2>div3</h2>
+        <p>div3</p>
+        <button id="b">click_div3</button> 
+        <img>
+    </div>
+
+    <div>
+        <h2>div4</h2>
+        <p>div4</p>
+        <button>click_div4</button> 
+        <img id="img">
+    </div>
+</body>
+</html>
